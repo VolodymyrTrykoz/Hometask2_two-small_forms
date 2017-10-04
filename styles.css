@@ -1,0 +1,102 @@
+body {
+	background-color: #ccc;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 50px auto;
+	display: flex;
+	
+
+}
+.notif {
+	height: 185px;
+	width: 290px;
+	border-radius: 3px;
+	background-color: #fff;
+	position: relative;
+	margin-right: 40px;
+	
+}
+
+.notif:after {
+	content: ''; 
+    position: absolute;
+    left: 28px;
+    top: -18px;
+    border: 9px solid transparent;
+    border-bottom: 9px solid white;
+
+}
+
+.notif__photo {
+	width: 65px;
+	height: 65px;
+	background-color: #ccc;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+	
+}
+
+.notif__text {
+	position: absolute;
+	top: 30px;
+	right: 90px;
+}
+
+
+
+
+
+.tooltip-right {
+	background-color: #444444;
+	
+}
+
+.tooltip-right:after {
+	content: ''; 
+    position: absolute;
+    right: 0;
+    top: 20px;
+    transform: translate(99%);
+	border: 12px solid transparent;	
+	border-left: 12px solid  #444444;
+	
+}
+.notif__button, .b-button {
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 20px;
+	position: absolute;
+	border: none;
+	border-radius: 3px;
+	bottom: 15px;
+	display: flex;
+}
+
+.notif__button-wrapper {
+	height: 35%;
+    width: 100%;
+    background-color: #333333;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 3px;
+}
+
+.notif__button--message {
+	left: 25px;
+	color: #fff;
+	background-color: #00bcd4;
+}
+
+.notif__button--like {
+	right: 25px;
+	color: #111;
+	background-color: #e0e0e0;
+}
+
+.notif__button--like-color {
+	background-color: #444444;
+}
