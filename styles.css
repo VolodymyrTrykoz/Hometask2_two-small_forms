@@ -1,102 +1,114 @@
 body {
-	background-color: #ccc;
-}
+	background-color: 			#ccc;
+	font-family: 				'Roboto', sans-serif;
+	font-size: 					14px;
 
+}
+p {
+	margin: 					0;
+}
 .container {
-	max-width: 1200px;
-	margin: 50px auto;
-	display: flex;
+	max-width: 					1200px;
+	margin: 					50px auto;
+	display: 					flex;
 	
 
 }
 .notif {
-	height: 185px;
-	width: 290px;
-	border-radius: 3px;
-	background-color: #fff;
-	position: relative;
-	margin-right: 40px;
+	height: 					185px;
+	width: 						290px;
+	border-radius: 				3px;
+	background-color: 			#fff;
+	position: 					relative;
+	margin-right: 				40px;
 	
 }
 
 .notif:after {
-	content: ''; 
-    position: absolute;
-    left: 28px;
-    top: -18px;
-    border: 9px solid transparent;
-    border-bottom: 9px solid white;
+	content: 					''; 
+    position: 					absolute;
+    left: 						28px;
+    top: 						-18px;
+    border: 					9px solid transparent;
+    border-bottom: 				9px solid white;
 
 }
 
 .notif__photo {
-	width: 65px;
-	height: 65px;
-	background-color: #ccc;
-	position: absolute;
-	left: 25px;
-	top: 25px;
+	width: 						65px;
+	height: 					65px;
+	background-color: 			#ccc;
+	position: 					absolute;
+	left: 						25px;
+	top: 						25px;
 	
 }
 
 .notif__text {
-	position: absolute;
-	top: 30px;
-	right: 90px;
+	position: 					absolute;
+	top: 						30px;
+	right: 						100px;
+	line-height: 				1.5;
 }
 
-
+.notif__text--color {
+	color: 						#888888;
+}
 
 
 
 .tooltip-right {
-	background-color: #444444;
+	background-color: 			#444444;
 	
 }
 
 .tooltip-right:after {
-	content: ''; 
-    position: absolute;
-    right: 0;
-    top: 20px;
-    transform: translate(99%);
-	border: 12px solid transparent;	
-	border-left: 12px solid  #444444;
+	content: 					''; 
+    position: 					absolute;
+    right: 						0;
+    top: 						20px;
+    transform: 					translate(99%);
+	border: 					12px solid transparent;	
+	border-left: 				12px solid  #444444;
 	
 }
 .notif__button, .b-button {
-	font-size: 14px;
-	text-transform: uppercase;
-	text-decoration: none;
-	padding: 10px 20px;
-	position: absolute;
-	border: none;
-	border-radius: 3px;
-	bottom: 15px;
-	display: flex;
+	font-size: 					14px;
+	text-transform: 			uppercase;
+	text-decoration: 			none;
+	padding: 					10px 20px;
+	position: 					absolute;
+	border: 					none;
+	border-radius: 				3px;
+	bottom: 					15px;
+	display: 					flex;
 }
 
 .notif__button-wrapper {
-	height: 35%;
-    width: 100%;
-    background-color: #333333;
-    position: absolute;
-    bottom: 0px;
-    border-radius: 3px;
+	height: 					35%;
+    width: 						100%;
+    background-color: 			#333333;
+    position: 					absolute;
+    bottom: 					0px;
+    border-radius: 				3px;
 }
 
 .notif__button--message {
-	left: 25px;
-	color: #fff;
-	background-color: #00bcd4;
+	left: 						25px;
+	color: 						#fff;
+	background-color: 			#00bcd4;
 }
 
 .notif__button--like {
-	right: 25px;
-	color: #111;
-	background-color: #e0e0e0;
+	right: 						25px;
+	color: 						#111;
+	background-color: 			#e0e0e0;
 }
 
 .notif__button--like-color {
-	background-color: #444444;
+	background-color: 			#444444;
+}
+
+.white {
+	color: 						#fff;
 }
